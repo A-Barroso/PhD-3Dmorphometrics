@@ -97,11 +97,8 @@ print(class_proportions)
 
 levels(LDA_data$Assemblage)  # check which order your sites are in - priors are automatically linked to this order
 
-priors <- c(0.14, 0.05, 0.3, 0.51)  # Specify prior probabilities (modify this if you have a specific preference) #GPF normal
+priors <- c(0.14, 0.05, 0.3, 0.51)  # Specify prior probabilities (modify this if you have a specific preference)
 
-priors <- c(0.16, 0.33, 0.51) # GPF with LP dropped no wonk no uniface
-priors <- c(0.15, 0.32, 0.53) # GPF with LP dropped no wonk no uniface no discoids
-priors <- c(0.1454545, 0.3272727, 0.5272727) # GPF with 25x25 Landmark analysis (no wonk no unif no disc)
 
 ### Part B: Generating the internal model
 
